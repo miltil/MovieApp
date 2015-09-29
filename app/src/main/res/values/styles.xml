@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+
+    <style name="Big_Title">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">40dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:background">#297A52</item>
+    </style>
+
+    <style name="Little_Title">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>
