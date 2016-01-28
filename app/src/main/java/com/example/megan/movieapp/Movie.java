@@ -1,25 +1,27 @@
 package com.example.megan.movieapp;
 
-import java.util.Comparator;
-
-/**
- * Created by Megan on 9/26/2015.
- */
 public class Movie implements Comparable<Movie> {
+    String movieId;
     String movieTitle;
     String poster;
     String overview;
     String vote_average;
     String release_date;
+    boolean fave_flag;
 
-    public Movie(String n, String p, String o, String va, String rd)
+    public Movie(String id, String n, String p, String o, String va, String rd)
     {
         this.movieTitle = n;
         this.poster = p;
         this.overview = o;
         this.vote_average = va;
         this.release_date = rd;
+        this.movieId = id;
+        this.fave_flag = false;
+    }
 
+    public String getMovieId(){
+        return movieId;
     }
 
     public String getMovieTitle(){
@@ -43,7 +45,7 @@ public class Movie implements Comparable<Movie> {
 
     @Override
     public int compareTo(Movie compareMovie) {
-        double compareVotes = ((Movie)compareMovie).getVote_average_as_double();
+        double compareVotes = (compareMovie).getVote_average_as_double();
         double thisVote = this.getVote_average_as_double();
         if(compareVotes > thisVote){
             return 1;

@@ -1,23 +1,16 @@
 <resources>
-    <string name="app_name">Popular Movie Viewer</string>
+    <string name="app_name">View Popular Movies</string>
     <string name="action_settings">Settings</string>
     <string name="pop_sort">Sort By Popularity</string>
-    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_detail">Movie Details</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_settings">SettingsActivity</string>
-    <string name="sorting_pref_key">SortPreference</string>
-    <string name="sorting_pref_title">Sort by:</string>
-    <string name="entry_value_1">Popularity</string>
-    <string name="entry_value_2">Rating</string>
-    <string name="pref_value_1">popularity.desc</string>
-    <string name="pref_value_2">vote_average.desc</string>
-    <string name="sorting_pref_default">popularity.desc</string>
-    <string-array name="pref_sort_options">
-        <item>@string/entry_value_1</item>
-        <item>@string/entry_value_2</item>
-    </string-array>
-    <string-array name="pref_value_sort">
-        <item>@string/pref_value_1</item>
-        <item>@string/pref_value_2</item>
-    </string-array>
+    <string name="popular_title">"By Popularity"</string>
+    <string name="rating_title">"By Rating"</string>
+    <string name="favorite_title">Favorites</string>
+    <string name="overview_title">Synopsis</string>
+    <string name="reviews_title">Reviews</string>
+    <string name="previews_title">Watch Trailers</string>
+    <string name="previewTag">Preview Tag Key</string>
+    <string name="favesTag">Favorites Tag Key</string>
 </resources>
