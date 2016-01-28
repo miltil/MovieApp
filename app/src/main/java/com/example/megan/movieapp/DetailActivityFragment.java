@@ -220,7 +220,7 @@ public class DetailActivityFragment extends Fragment {
                 final String BASE_URL = "http://api.themoviedb.org/3/movie/";
                 final String REVIEW_PARAM = "reviews";
                 final String API_PARAM = "api_key";
-                final String API_KEY = "b2e6b8088ea3bca2a9c0d1d3f3cc350a";
+                final String API_KEY = "ENTER KEY HERE";
 
                 Uri uri = Uri.parse(BASE_URL).buildUpon()
                         .appendPath(movie_ID)
@@ -363,7 +363,7 @@ public class DetailActivityFragment extends Fragment {
                 final String BASE_URL = "http://api.themoviedb.org/3/movie/";
                 final String PREVIEW_PARAM = "videos";
                 final String API_PARAM = "api_key";
-                final String API_KEY = "b2e6b8088ea3bca2a9c0d1d3f3cc350a";
+                final String API_KEY = "ENTER KEY HERE";
 
                 Uri uri = Uri.parse(BASE_URL).buildUpon()
                         .appendPath(movie_ID)
